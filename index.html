@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>VinAutoReport</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="nav" class="navbar">
+        <div class="navbar-logo">
+            <a href="#">VinAutoReport</a>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="#Hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <div class="navbar-btn">
+            <a href="#Hero">Get Report</a>
+        </div>
+    </nav>
+    
+        <!-- Hero Section -->
+        <section id="Hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Helping You Find the Perfect Vehicle</h1>
+                <div class="underline"></div>
+                <p>Get a detailed VIN report to minimize the risk of buying a damaged or misrepresented car. By entering the VIN, you can access the car’s complete history, helping you make informed decisions when purchasing from the secondary market.</p>
+                <a href="#services">Our Services</a>
+            </div>
+            
+            <div class="hero-form">
+                <h2>Get Report</h2>
+                <p>Get vehicle VIN report by submitting your request</p>
+                <div class="form">
+
+                    <form action="#" method="POST">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="vin">VIN/Registration Number *</label>
+                        <input type="text" id="vin" name="vin" maxlength="17" required>
+                        
+                        <label for="category">Vehicle's Category</label>
+                        <select id="category" name="category">
+                            <option value="car">Car</option>
+                            <option value="motorcycle">Motorcycle</option>
+                            <option value="truck">Truck</option>
+                        </select>
+                        
+                        <button type="submit" class="btn">Get Report</button>
+                    </form>
+                </div>
+    
+                <div class="payment-icons">
+                    <img src="visa.png" alt="Visa">
+                    <img src="card.png" alt="Mastercard">
+                    <img src="paypal.png" alt="PayPal">
+                    <!-- Add more icons as needed -->
+                </div>
+                <p class="secure-checkout">SSL Secure Checkout</p>
+            </div>
+        </section>
+
+        <!-- Car Details Section -->
+    <section class="car-details-section">
+        <div class="car-image">
+            <img src="pexels-mikebirdy-170811-removebg-preview.png" alt="Car">
+        </div>
+        <div class="car-info">
+            <div class="info-card1">
+                <div class="icon">
+                    <img src="icons8-delivery-time-80 (1).png" alt="History Icon">
+                </div>
+                <h3>All history events</h3>
+                <p>We specialize in car repair with a focus on preserving and understanding the rich history and
+                    evolution of automotive technology.</p>
+            </div>
+            <div class="info-card1">
+                <div class="icon">
+                    <img src="icons8-search-80.png" alt="Specifications Icon">
+                </div>
+                <h3>Vehicle specifications</h3>
+                <p>Detail the essential features and performance attributes of a car, including engine power,
+                    dimensions, fuel efficiency, and safety features.</p>
+            </div>
+            <div class="info-card2">
+                <div class="icon">
+                    <img src="icons8-car-80 (1).png" alt="VIN Icon">
+                </div>
+                <h3>Looking for the VIN?</h3>
+                <p>You can submit your request by clicking the button below.</p>
+                <a href="#Hero" class="btn">Get Quote</a>
+            </div>
+        </div>
+    </section>
+
+
+   <!-- What We Do Section -->
+   <section id="what-we-do" class="what-we-do-section">
+    <div class="content-container">
+        <h2>What We Do</h2>
+        <p>Introducing our Outstanding Vehicle Report, providing comprehensive</p>
+        <p>insights into your vehicle’s condition and performance.</p>
+        <a href="services.html">Our Services <span>&#8250;</span></a>
+    </div>
+</section>
+
+<!-- Vehicle Information Section -->
+<section id="vehicle-info" class="vehicle-info-section">
+    <!-- Ownership History Card -->
+    <div class="info-card">
+        <div class="info-content">
+            <h3>Ownership History</h3>
+            <p>Trace the journey of previous owners and tenure periods to understand the vehicle's past ownership
+                and usage.</p>
+            <ul>
+                <li>Acquisitions</li>
+                <li>Transfers</li>
+                <li>Stints</li>
+                <li>Tenures</li>
+                <li>Holdings</li>
+                <li>Occupancies</li>
+                <li>Terms</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Vehicle Specifications Card -->
+    <div class="info-card">
+        <div class="info-content">
+            <h3>Vehicle Specifications</h3>
+            <p>Detail essential information such as engine type, transmission, dimensions, and safety features.</p>
+            <ul>
+                <li>Dimensions</li>
+                <li>Capacities</li>
+                <li>Features</li>
+                <li>Configurations</li>
+                <li>Options</li>
+                <li>Characteristics</li>
+                <li>Attributes</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Safety and Recall Information Card -->
+    <div class="info-card">
+        <div class="info-content">
+            <h3>Safety and Recall Information</h3>
+            <p>Stay informed about potential hazards and recalls related to your vehicle to ensure a safe and
+                reliable driving experience.</p>
+            <ul>
+                <li>Safety Details</li>
+                <li>Recall Status</li>
+                <li>Safety Notices</li>
+                <li>Recall Updates</li>
+                <li>Safety Alerts</li>
+                <li>Recall Notifications</li>
+                <li>Safety Advisories</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Vehicle Inspection Report Card -->
+    <div class="info-card">
+        <div class="info-content">
+            <h3>Vehicle Inspection Report</h3>
+            <p>A thorough examination of the vehicle's mechanical and cosmetic condition, identifying any existing
+                issues or potential concerns for maintenance, safety, performance, and longevity.</p>
+            <ul>
+                <li>Assessment</li>
+                <li>Examination</li>
+                <li>Evaluation</li>
+                <li>Overview</li>
+                <li>Analysis</li>
+                <li>Appraisal</li>
+                <li>Review</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+ <!-- Pricing Section -->
+ <div id="pricing" class="pricing-section">
+    <h2>Pricing Plan</h2>
+    <p>Explore our transparent pricing model designed to offer affordability and flexibility, ensuring you get the
+        best value for</p>
+    <p>your vehicle inspection needs.</p>
+    <div class="pricing-card">
+        <h3>Startup Package</h3>
+        <p><span class="old-price">$50</span> $39.99</p>
+        <ul>
+            <li>1 Report</li>
+            <li>Vehicle Report</li>
+            <li>DMV Title History</li>
+            <li>Safety Recall Status</li>
+            <li>Vehicle Specification</li>
+            <li>Accident Information</li>
+            <li>Online Listing History</li>
+            <li>Never Expires</li>
+            <a href="#Hero">Get Report</a>
+        </ul>
+    </div>
+    <div class="pricing-card-1">
+        <h2>Best Value</h2>
+        <h3>Pro Package</h3>
+        <p><span class="old-price">$80</span> $62.99</p>
+        <ul>
+            <li>2 Report</li>
+            <li>Vehicle Report</li>
+            <li>DMV Title History</li>
+            <li>Safety Recall Status</li>
+            <li>Vehicle Specification</li>
+            <li>Accident Information</li>
+            <li>Online Listing History</li>
+            <li>Never Expires</li>
+            <a href="#Hero">Get Report</a>
+        </ul>
+    </div>
+    <div class="pricing-card">
+        <h3>Elite Package</h3>
+        <p><span class="old-price">$120</span> $79.99</p>
+        <ul>
+            <li>3 Report</li>
+            <li>Vehicle Report</li>
+            <li>DMV Title History</li>
+            <li>Safety Recall Status</li>
+            <li>Vehicle Specification</li>
+            <li>Accident Information</li>
+            <li>Online Listing History</li>
+            <li>Never Expires</li>
+            <a href="#Hero">Get Report</a>
+        </ul>
+    </div>
+</div>
+
+ <!-- Contact Form Popup -->
+ <div class="form-popup" id="contactForm">
+    <div class="form-container">
+        <span class="close-btn" onclick="closeForm()">X</span>
+        <h3>Send Your Queries</h3>
+        <form>
+            <label for="name">First Name*</label>
+            <input type="text" id="name" placeholder="E.g. John" required>
+
+            <label for="email">Email Address*</label>
+            <input type="email" id="email" placeholder="E.g. john@doe.com" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="E.g. +1 3004005000">
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Enter your message..." maxlength="180"></textarea>
+
+            <button type="submit" class="send-button">SEND MESSAGE</button>
+        </form>
+    </div>
+</div>
+
+  <!-- Contact Section -->
+  <div id="contact" class="contact-section">
+    <p>NEED HELP? CALL OUR SUPPORT</p>
+    <h2>+1 9122965428</h2>
+    <p>NEED HELP?</p>
+    <button class="contact-button" onclick="openForm()">CONTACT US</button>
+</div>
+
+<!-- Contact Form Popup -->
+<div class="form-popup" id="contactForm">
+    <div class="form-container">
+        <span class="close-btn" onclick="closeForm()">X</span>
+        <h3>Send Your Queries</h3>
+        <form>
+            <label for="name">First Name*</label>
+            <input type="text" id="name" placeholder="E.g. John" required>
+
+            <label for="email">Email Address*</label>
+            <input type="email" id="email" placeholder="E.g. john@doe.com" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="E.g. +1 3004005000">
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Enter your message..." maxlength="180"></textarea>
+
+            <button type="submit" class="send-button">SEND MESSAGE</button>
+        </form>
+    </div>
+</div>
+
+ <!-- HTML for Footer Section -->
+ <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <p>Vin Auto Report: Reliable vehicle inspections and reports for informed decisions.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact Info</h3>
+            <p>support@vinautoreports.com</p>
+        </div>
+        <div class="footer-links">
+            <h3>Useful Info</h3>
+            <ul>
+                <li><a href="#Hero">Home</a></li>
+                <li><a href="#cotact">Contact</a></li>
+                <li><a href="#what-we-do">Services</a></li>
+                <li><a href="#pricing">Pricing Plan</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Vin Auto Reports | All Rights Reserved |</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
